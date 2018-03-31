@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".SongPickedActivity" >
+
+
+    <ImageView
+        android:id="@+id/coverArt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fallback_cover"
+        android:scaleType="fitXY"/>
+
+    <com.player.licenta.androidplayer.MusicController
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.player.licenta.androidplayer.MusicController>
+
+
+</RelativeLayout>

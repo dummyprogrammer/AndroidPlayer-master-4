@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.player.licenta.androidplayer.SongPickedActivity" >
+
+    <item
+        android:id="@+id/action_equalizer"
+        android:icon="@drawable/equalizer"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:onClick="openEqualizerActivity"
+        android:title="Equalizer"/>
+
+</menu>
